@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double valorCarro,distribuidor,imposto;
+
+    printf("Diga o valor do carro: ");
+    scanf("%lf", &valorCarro);
+
+    distribuidor=valorCarro*0.28;
+
+    imposto=valorCarro*0.45;
+
+    printf("se o seu veiculo custa %.2lf você pagara para o distribuidor %.2lf e pagara de imposto %.2lf.\n",valorCarro, distribuidor, imposto);
+
+    return 0;
+}
