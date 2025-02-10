@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int cavalos,ferradura;
+
+    printf("Quantos cavalos foram comprados? ");
+    scanf("%d", &cavalos);
+
+    ferradura=cavalos*4;
+
+    printf("Sera preciso %d\n ferraduras ",ferradura);
+
+    return 0;
+}
