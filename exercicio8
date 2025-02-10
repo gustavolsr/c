@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int pao, broa;
+    double arrecadado, investimento;
+
+    printf("Quantos pães foram vendidos? ");
+    scanf("%d", &pao);
+
+    printf("Quantas broas foram vendidas? ");
+    scanf("%d", &broa);
+
+    arrecadado = (pao * 0.12) + (broa * 1.50);
+    investimento = arrecadado * 0.10;
+
+    printf("Vendendo %d pães e %d broas, você arrecadou R$ %.2lf e investirá R$ %.2lf.\n", pao, broa, arrecadado, investimento);
+
+    return 0;
+}
