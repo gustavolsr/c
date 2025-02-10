@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double area,base,altura;
+
+    printf("Diga o valor da base do terreno: ");
+    scanf("%lf", &base);
+
+    printf("Diga o valor da altura do terreno: ");
+    scanf("%lf", &altura);
+
+    area=base*altura;
+
+    printf("o seu terreno tem a seguinte area %2.lf",area);
+
+    return 0;
+}
