@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int frangos;
+    double pedireito, peesquerdo, gasto;
+
+    printf("Quantos frangos tem na granja? ");
+    
+    scanf("%d", &frangos);
+
+    pedireito=frangos*4.00;
+
+    peesquerdo=frangos*3.50*2;
+
+    gasto=pedireito+peesquerdo;
+
+    printf("Com %d frangos, o gasto sera de %.2lf",frangos,gasto);
+
+    return 0;
+}
