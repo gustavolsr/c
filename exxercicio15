@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int lata,g600, g2;
+    double lataLitro, g600Litro, g2Litro, litroTotal;
+
+    printf("Quantas latas foram compradas? ");
+    scanf("%d", &lata);
+
+    printf("Quantas garrafas de 600ml foram compradas? ");
+    scanf("%d", &g600);
+
+    printf("Quantas garrafas de 2l foram compradas? ");
+    scanf("%d", &g2);
+
+    lataLitro=lata*0.350;
+
+    g600Litro= g600*0.600;
+
+    g2Litro=g2*2.0;
+
+    litroTotal=g600Litro+g2Litro+lataLitro;
+
+    printf("Foi comprado %.2lf litros de refrigerante",litroTotal);
+
+    return 0;
+}
