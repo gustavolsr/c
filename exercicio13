@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int sanduiches;
+    double queijo, presunto, hamburguer;
+
+    printf("Quantos sanduiches serão preparados? ");
+    scanf("%d", &sanduiches);
+
+    queijo=sanduiches*0.05;
+
+    presunto=sanduiches*0.05;
+
+    hamburguer=sanduiches*0.10;
+
+    printf("Sera preciso comprar %.2lf kg de queijo, %.2lf kg de presunto e %.2lf kg de hamburguer", queijo, presunto, hamburguer);
+
+    return 0;
+}
