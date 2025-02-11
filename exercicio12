@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    double salario, salarioAumento, salarioFinal;
+
+    printf("Qual o seu salário? ");
+    scanf("%lf", &salario);
+
+    salarioAumento=salario+(salario*0.15);
+
+    salarioFinal=(salarioAumento-(salarioAumento*8)/100);
+
+    printf("O seu salario inicial é R$%.2lf, com o aumento ele fica R$%.2lf e com o desconto ele fica %2.lf", salario, salarioAumento, salarioFinal);
+
+    return 0;
+}
