@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double quilo, preco;
+
+    printf("Qual o peso do prato? ");
+    scanf("%lf", &quilo);
+
+    preco=quilo*12.00;
+
+    printf("O valor do seu prato foi R$%.2lf", preco);
+
+    return 0;
+}
