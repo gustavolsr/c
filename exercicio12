@@ -12,7 +12,7 @@ int main() {
 
     salarioFinal=(salarioAumento-(salarioAumento*8)/100);
 
-    printf("O seu salario inicial é R$%.2lf, com o aumento ele fica R$%.2lf e com o desconto ele fica %2.lf", salario, salarioAumento, salarioFinal);
+    printf("O seu salario inicial é R$%.2lf, com o aumento ele fica R$%.2lf e com o desconto ele fica %.2lf", salario, salarioAumento, salarioFinal);
 
     return 0;
 }
