@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double valorLitro, valorPagamento, litros;
+
+    printf("Quantos reais está o litro da gasolina? ");
+    scanf("%lf", &valorLitro);
+
+    printf("Quantos reais você colocou? ");
+    scanf("%lf", &valorPagamento);
+
+    litros=valorPagamento/valorLitro;
+
+    printf("Com o litro a R$%.2lf e você pagando R$%.2lf, é possível abastecer %2.lf litros de gasolina", valorLitro,valorPagamento,litros);
+
+    return 0;
+}
