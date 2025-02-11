@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int compraP,compraM, compraG;
+    double totalP, totalM, totalG, arrecadado;
+
+    printf("Quantos camisetas P foram vendidos? ");
+    scanf("%d", &compraP);
+
+    printf("Quantos camisetas M foram vendidos? ");
+    scanf("%d", &compraM);
+
+    printf("Quantos camisetas G foram vendidos? ");
+    scanf("%d", &compraG);
+
+    totalP=compraP*10.00;
+
+    totalM=compraM*12.00;
+
+    totalG=compraG*15.00;
+
+    arrecadado=totalP+totalM+totalG;
+
+    printf("O valor arrecadado foi R$%.2lf", arrecadado);
+
+    return 0;
+}
