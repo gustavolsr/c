@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    double trabalho, avaliacao, exame, nota;
+
+    printf("Qual foi a nota no trabalho de laboratório? ");
+    scanf("%lf", &trabalho);
+
+    printf("Qual foi a nota na avaliação semestral? ");
+    scanf("%lf", &avaliacao);
+
+    printf("Qual foi a nota no exame final? ");
+    scanf("%lf", &exame);
+
+
+    nota = (trabalho * 2 + avaliacao * 3 + exame * 5) / 10;
+
+
+    if (nota > 8.00)
+        printf("Você tirou A!\n");
+
+    else if (nota > 7.00 && nota <= 8.00)
+        printf("Você tirou B!\n");
+
+    else if (nota > 6.00 && nota <= 7.00)
+        printf("Você tirou C!\n");
+
+    else if (nota > 5.00 && nota <= 6.00)
+        printf("Você tirou D!\n");
+
+    else
+        printf("Você tirou E!\n");
+
+    return 0;
+}
