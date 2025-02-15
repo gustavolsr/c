@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int numero1, numero2;
+
+    printf("Informe um numero: ");
+    scanf("%d", &numero1);
+
+    printf("Informe outro numero: ");
+    scanf("%d", &numero2);
+
+    if (numero1 > numero2)
+        printf("O primeiro numero é o maior: %d\n", numero1);
+    else
+        printf("O segundo numero é o maior: %d\n", numero2);
+
+    return 0;
+}
